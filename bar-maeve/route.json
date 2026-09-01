@@ -1,0 +1,294 @@
+{
+  "assets" : [
+    {
+      "bed" : {
+        "headingOffsetDegrees" : 0,
+        "normalisation" : "sn3d",
+        "order" : 1
+      },
+      "file" : "audio/bed-forest-2m-1oa.mp4",
+      "id" : "FCAB9C68-D877-45C8-99ED-70B54175134A",
+      "kind" : "bed",
+      "name" : "bed-forest-2m-1oa",
+      "seconds" : 112
+    },
+    {
+      "bed" : {
+        "headingOffsetDegrees" : 0,
+        "normalisation" : "sn3d",
+        "order" : 1
+      },
+      "file" : "audio/bed-village-foa.mp4",
+      "id" : "CEF95C19-6746-499F-8416-3F7B7C52E0CF",
+      "kind" : "bed",
+      "name" : "bed-village-foa",
+      "seconds" : 205.94195833333333
+    },
+    {
+      "file" : "audio/obj-bell.m4a",
+      "id" : "44C1C66F-9D9B-4581-8CCB-6ACCB9FC9178",
+      "kind" : "object",
+      "name" : "obj-bell",
+      "seconds" : 16.578041666666667
+    },
+    {
+      "file" : "audio/obj-oneshot.m4a",
+      "id" : "B87D6E34-8E5F-4FD8-A8F6-CC5ACEAC0D7C",
+      "kind" : "object",
+      "name" : "obj-oneshot",
+      "seconds" : 3.9030833333333335
+    },
+    {
+      "file" : "audio/narr-verstandhouding1.m4a",
+      "id" : "60B7EEB6-2EED-4F70-A4D0-B5D2214A92C9",
+      "kind" : "narration",
+      "name" : "narr-verstandhouding1",
+      "seconds" : 29.073083333333333
+    },
+    {
+      "file" : "audio/obj-mlk-speech.m4a",
+      "id" : "32CB2533-5A06-48F9-AFD9-32AB3AC07297",
+      "kind" : "object",
+      "name" : "obj-mlk-speech",
+      "seconds" : 95.04989583333334
+    },
+    {
+      "file" : "audio/narr-Verstandhouding6.m4a",
+      "id" : "5B17B833-A2A3-4F2B-B2A9-DBE73A37986C",
+      "kind" : "narration",
+      "name" : "narr-Verstandhouding6",
+      "seconds" : 21.023333333333333
+    },
+    {
+      "file" : "audio/nav-test.m4a",
+      "id" : "7AD705EB-18FB-4D1D-9716-B6415ABDB7DD",
+      "kind" : "navigation",
+      "name" : "nav-test",
+      "seconds" : 4.136854166666667
+    }
+  ],
+  "beds" : [
+    {
+      "asset" : "CEF95C19-6746-499F-8416-3F7B7C52E0CF",
+      "fadeInMeters" : 15,
+      "fadeOutMeters" : 15,
+      "fromMeters" : 6.858881649060677,
+      "gain" : 0.11225271305035288,
+      "id" : "872D9F27-FBDE-4103-B78A-762078F4E0D4",
+      "name" : "bed-village-foa",
+      "toMeters" : 432.4771881220856
+    }
+  ],
+  "createdAt" : "2026-08-09T11:40:19.473Z",
+  "format" : "fabelroute.route",
+  "id" : "16A0473E-A41B-4F92-8096-0E5BADA625C0",
+  "landmarks" : [
+    {
+      "cues" : [
+        {
+          "asset" : "B87D6E34-8E5F-4FD8-A8F6-CC5ACEAC0D7C",
+          "atSeconds" : 17.88294996334311,
+          "elevationMeters" : 0,
+          "fadeInSeconds" : 0,
+          "fadeOutSeconds" : 0,
+          "gain" : 1,
+          "id" : "709DE242-9518-4C0A-9047-94FE09D7AF02",
+          "kind" : "sound",
+          "lat" : 52.354731432660984,
+          "lon" : 4.890723307337136,
+          "loops" : false,
+          "mustFinish" : false,
+          "name" : "obj-oneshot",
+          "untilSeconds" : 21.786033296676443
+        },
+        {
+          "asset" : "B87D6E34-8E5F-4FD8-A8F6-CC5ACEAC0D7C",
+          "atSeconds" : 10.512509164222873,
+          "elevationMeters" : 0,
+          "fadeInSeconds" : 0,
+          "fadeOutSeconds" : 0,
+          "gain" : 1,
+          "id" : "5249762C-718B-4019-974C-7F7C80DCE2C7",
+          "kind" : "sound",
+          "lat" : 52.35462663553508,
+          "lon" : 4.8899851886594785,
+          "loops" : false,
+          "mustFinish" : false,
+          "name" : "obj-oneshot",
+          "untilSeconds" : 14.415592497556206
+        },
+        {
+          "asset" : "60B7EEB6-2EED-4F70-A4D0-B5D2214A92C9",
+          "atSeconds" : 1.6956103372434015,
+          "elevationMeters" : 0,
+          "fadeInSeconds" : 0,
+          "fadeOutSeconds" : 0,
+          "gain" : 1,
+          "id" : "73240C4B-6AA6-49D3-AA64-3B636021C4B4",
+          "kind" : "narration",
+          "loops" : true,
+          "mustFinish" : false,
+          "name" : "narr-verstandhouding1",
+          "untilSeconds" : 30.768693670576734
+        },
+        {
+          "asset" : "FCAB9C68-D877-45C8-99ED-70B54175134A",
+          "atSeconds" : 0,
+          "elevationMeters" : 0,
+          "fadeInSeconds" : 2.230686400293255,
+          "fadeOutSeconds" : 0,
+          "gain" : 1,
+          "id" : "5C550E4A-96C3-4C5E-BC3E-0CF7D5D82A88",
+          "kind" : "bed",
+          "loops" : true,
+          "mustFinish" : false,
+          "name" : "bed-forest-2m-1oa"
+        }
+      ],
+      "id" : "512E4B32-A83E-4671-A7F2-5B32C188CFF1",
+      "lat" : 52.35448732877695,
+      "lon" : 4.890435928080223,
+      "name" : "Landmark 1",
+      "reentry" : "restart",
+      "releaseRadiusMeters" : 17.05495113073211,
+      "routeUnderneath" : "fadesOut",
+      "triggerRadiusMeters" : 10.46942989962063
+    }
+  ],
+  "name" : "Bar maeve",
+  "narrations" : [
+    {
+      "asset" : "5B17B833-A2A3-4F2B-B2A9-DBE73A37986C",
+      "collision" : "interruptible",
+      "fromMeters" : 290.7730352231206,
+      "gain" : 1,
+      "id" : "D2480176-4BED-4C1D-B711-113D31CE1AE3",
+      "name" : "narr-Verstandhouding6",
+      "rearmMarginMeters" : 10,
+      "toMeters" : 316.0010352231206
+    }
+  ],
+  "navigation" : [
+    {
+      "asset" : "7AD705EB-18FB-4D1D-9716-B6415ABDB7DD",
+      "gain" : 1,
+      "id" : "A6475201-D924-4A37-BBB4-C67B4D9003C7",
+      "lat" : 52.35535357682861,
+      "lon" : 4.8904244810701405,
+      "name" : "nav-test",
+      "rearmRadiusMeters" : 14.897413956204034,
+      "rearms" : true,
+      "triggerRadiusMeters" : 8.519251559732727
+    }
+  ],
+  "objects" : [
+    {
+      "asset" : "44C1C66F-9D9B-4581-8CCB-6ACCB9FC9178",
+      "beamWidthDegrees" : 94.28314463232061,
+      "behavior" : "sounding",
+      "curve" : "decibel",
+      "elevationMeters" : 0,
+      "facingDegrees" : 5.132053723933326,
+      "gain" : 1,
+      "id" : "D880BB7C-B595-42F9-9066-46F95E739A4D",
+      "innerRadiusMeters" : 7,
+      "lat" : 52.353970880819226,
+      "lon" : 4.890447930792852,
+      "name" : "obj-bell",
+      "outerRadiusMeters" : 37.964080353957364,
+      "shadowDepth" : 1,
+      "shadowStrength" : 1
+    },
+    {
+      "asset" : "32CB2533-5A06-48F9-AFD9-32AB3AC07297",
+      "beamWidthDegrees" : 96,
+      "behavior" : "sounding",
+      "curve" : "decibel",
+      "elevationMeters" : 0,
+      "facingDegrees" : 23.259909639352127,
+      "gain" : 1,
+      "id" : "137312B1-FA17-43EA-953B-7D76868387BE",
+      "innerRadiusMeters" : 7,
+      "lat" : 52.3549369613423,
+      "lon" : 4.890081789108582,
+      "name" : "obj-mlk-speech",
+      "outerRadiusMeters" : 35.53956617600507,
+      "shadowDepth" : 1,
+      "shadowStrength" : 1
+    },
+    {
+      "asset" : "B87D6E34-8E5F-4FD8-A8F6-CC5ACEAC0D7C",
+      "beamWidthDegrees" : 23.537843785431562,
+      "behavior" : "triggered",
+      "curve" : "decibel",
+      "elevationMeters" : 0,
+      "facingDegrees" : 213.18712886703855,
+      "firesAtMeters" : 64.2873029155805,
+      "gain" : 0.5253817066210046,
+      "id" : "1384D5D9-851A-45D9-9CB8-0B8FF44CA679",
+      "innerRadiusMeters" : 7,
+      "lat" : 52.35388918843637,
+      "lon" : 4.891220864723498,
+      "name" : "obj-oneshot",
+      "outerRadiusMeters" : 20,
+      "rearmMarginMeters" : 10,
+      "rearms" : false,
+      "shadowDepth" : 0.5,
+      "shadowStrength" : 0.33
+    }
+  ],
+  "route" : {
+    "coordinates" : [
+      {
+        "lat" : 52.352970092948546,
+        "lon" : 4.891090862367184
+      },
+      {
+        "lat" : 52.35346859959086,
+        "lon" : 4.890888132103346
+      },
+      {
+        "lat" : 52.35404016445706,
+        "lon" : 4.890669601631306
+      },
+      {
+        "lat" : 52.354539746672216,
+        "lon" : 4.890470118158702
+      },
+      {
+        "lat" : 52.354950527409684,
+        "lon" : 4.890311046966343
+      },
+      {
+        "lat" : 52.35542142986055,
+        "lon" : 4.89042373398563
+      },
+      {
+        "lat" : 52.355865221263464,
+        "lon" : 4.892557164843273
+      }
+    ],
+    "corridorHalfWidthMeters" : 20,
+    "corridorStretches" : [
+      {
+        "fromMeters" : 0,
+        "halfWidthMeters" : 20
+      }
+    ]
+  },
+  "settings" : {
+    "bloomCeiling" : 0.5,
+    "bloomOn" : true,
+    "bloomSpaceName" : "outdoor:Open square",
+    "duckingDecibels" : 3,
+    "duckingSpeedSeconds" : 0.8,
+    "dullingOn" : false,
+    "dullingStrength" : 0.5,
+    "interruptionFadeSeconds" : 0.5,
+    "walkingSpeedMetersPerSecond" : 1.2
+  },
+  "textMoments" : [
+
+  ],
+  "version" : 2
+}
