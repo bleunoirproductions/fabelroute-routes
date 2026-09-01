@@ -11,6 +11,7 @@
     --ground: #f6f5f2;
     --card: #fffffe;
     --edge: #e2e0da;
+    --accent: #b4552d;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -19,6 +20,7 @@
       --ground: #16181d;
       --card: #1e2128;
       --edge: #2c303a;
+      --accent: #d9764a;
     }
   }
   body {
@@ -37,22 +39,28 @@
     padding: 2rem;
     max-width: 26rem;
     width: 100%;
-    text-align: center;
   }
   h1 { font-size: 1.6rem; margin: 0 0 0.35rem; letter-spacing: -0.01em; }
-  .facts { color: var(--quiet); margin: 0 0 1.75rem; font-size: 0.95rem; }
-  img { width: min(15rem, 70vw); height: auto; image-rendering: pixelated; }
-  .address {
-    display: inline-block;
-    margin-top: 1.5rem;
-    word-break: break-all;
-    color: inherit;
+  .facts { color: var(--quiet); margin: 0 0 1.5rem; font-size: 0.95rem; }
+  .open {
+    display: block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    border-radius: 9px;
+    font-weight: 600;
   }
+  .needs { color: var(--quiet); font-size: 0.85rem; margin: 0.65rem 0 0; text-align: center; }
+  .start { margin: 1.75rem 0 0; font-size: 0.95rem; }
+  .start a { color: var(--accent); }
 </style>
 <main>
   <h1>Bar maeve</h1>
-  <p class="facts">432 m · 8 sounds · 16 MB</p>
-  <img src="qr.png" alt="QR code for this route">
-  <p><a class="address" href="https://bleunoirproductions.github.io/fabelroute-routes/bar-maeve/">https://bleunoirproductions.github.io/fabelroute-routes/bar-maeve/</a></p>
+  <p class="facts">432 m · 8 sounds · 16 MB to download</p>
+  <a class="open" href="fabelroute://bleunoirproductions.github.io/fabelroute-routes/bar-maeve/">Open this route</a>
+  <p class="needs">Opens in Fabelroute Preview on a Mac. The iPhone app follows.</p>
+  <p class="start">Starts at <a href="https://maps.apple.com/?ll=52.352970092948546,4.891090862367184&q=Bar%20maeve">this spot</a>.</p>
 </main>
 </html>
